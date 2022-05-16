@@ -1,0 +1,20 @@
+INSERT INTO pc_split_pusher_credentials (id,appid,credentials,is_default,os,systemid) VALUES ( nextval ('pc_split_pusher_creds_seq'),'tech.paycon.mobile_auth_sample','{"google_api_key":"AAAAXtTj49I:APA91bHbSf3-dLpvcQNit0V789IM8aL1WdplOTzIq0g7ST0aP36tF-KmrV_C9qypy-hBcTf5kE3S3j22OcqdDo0vRK6SehTNkl9ziSdJs-UeFhbqPe1JX-cxIgvvuI-ISgDAAgrqO9zT"}', 1 ,'Android','0b3c8706-89d7-4378-8a96-707d5939c0f1');
+
+{
+   "messages":[
+      {
+         "to":"%DEVICE_TOKEN%",
+         "notification":{
+            "tag":"%USER_ID%",
+            "title":"My Super App notification",
+            "body":"You have something to confirm!",
+            "icon":"paycontrol_push",
+            "sound":"default"
+         }
+      }
+   ]
+}
+
+{"messages":[{"to":"%DEVICE_TOKEN%","notification":{"tag":"%USER_ID%","title":"My Super App notification","body":"You have something to confirm!","icon":"paycontrol_push","sound":"default"}}]}
+
+update pc_split_pusher_credentials set templates='{"messages":[{"to":"%DEVICE_TOKEN%","notification":{"tag":"%USER_ID%","title":"DYMAR PAYCONFIRM","body":"You have something to confirm!","icon":"paycontrol_push","sound":"default"}}]}' where appid='tech.paycon.mobile_auth_sample' and os='Android';
