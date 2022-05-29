@@ -1,0 +1,336 @@
+[2022-05-29T12:22:07]
+{
+    "transaction_id": "d602a80c-c091-455c-bcf8-e9527c7c545d",
+    "device_event_id": "049450ce-6388-4075-b653-bcc445302458",
+    "device_info": {
+        "app": {
+            "appName": "PC Sample App",
+            "packageName": "tech.paycon.mobile_auth_sample",
+            "appVersionName": "1.0",
+            "appVersionCode": 1
+        },
+        "wifi": {
+            "macAddress": "",
+            "localIp": "10.0.2.16",
+            "userAgent": "Mozilla\/5.0 (Linux; Android 11; sdk_gphone_x86_arm Build\/RSR1.201013.001; wv) AppleWebKit\/537.36 (KHTML, like Gecko) Version\/4.0 Chrome\/83.0.4103.106 Mobile Safari\/537.36__Dalvik\/2.1.0 (Linux; U; Android 11; sdk_gphone_x86_arm Build\/RSR1.201013.001)",
+            "SSID": "<unknown ssid>"
+        },
+        "memory": {
+            "totalExternalMemorySize": "6240665600",
+            "totalInternalMemorySize": "6240665600",
+            "hasExternalSDCard": 1,
+            "totalRAM": "2028236"
+        },
+        "sim": {
+            "networkCountryIso": "",
+            "phoneType": "",
+            "simCount": 0,
+            "simCountryIso": "",
+            "roaming": 0,
+            "IMSI": "",
+            "simOperatorName": "",
+            "mmsUrl": "",
+            "imei": "",
+            "mmsAgent": "",
+            "simSerial": "",
+            "networkOperatorName": ""
+        },
+        "sensor": {
+            "minDelay": 10000,
+            "vendor": "The Android Open Source Project",
+            "name": "Goldfish 3-axis Accelerometer",
+            "maxRange": 39.30000686645508,
+            "type": 1,
+            "version": 1,
+            "resolution": 0.00024801588733680546
+        },
+        "location": {
+            "latitude": "0.0000000",
+            "accuracy": "0.00",
+            "longitude": "0.0000000"
+        },
+        "device": {
+            "screenWidth": 1440,
+            "radioVersion": "1.0.0.0",
+            "locale": "en",
+            "manufacturer": "Google",
+            "buildHost": "abfarm-us-west1-c-0007",
+            "buildVersionCodeName": "REL",
+            "osVersion": "11",
+            "defaultBrowser": "",
+            "bootloader": "unknown",
+            "root": 1,
+            "fingerprint": "google\/sdk_gphone_x86_arm\/generic_x86_arm:11\/RSR1.201013.001\/6903271:userdebug\/dev-keys",
+            "model": "sdk_gphone_x86_arm",
+            "hardware": "ranchu",
+            "product": "sdk_gphone_x86_arm",
+            "simulator": 0,
+            "buildBrand": "google",
+            "buildTime": 1602626168000,
+            "buildUser": "android-build",
+            "screenHeight": 2701,
+            "timeZone": "Asia\/Bangkok",
+            "cpu": "siblings=1;apicid=0;cpuid level=10;flags=fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc arch_perfmon nopl cpuid pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 movbe popcnt aes hypervisor pti;cpu cores=1;fpu=yes;stepping=1;processor=3;bogomips=3596.67;physical id=0;cpu MHz=0.001;address sizes=39 bits physical, 48 bits virtual;bugs=cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit;clflush size=64;cache_alignment=64;vendor_id=GenuineIntel;initial apicid=0;fpu_exception=yes;wp=yes;model=31;core id=0;cpu family=6;model name=Virtual CPU;cache size=1024 KB",
+            "defaultSms": "com.android.bluetooth",
+            "deviceID": "55d48ca132830d7e",
+            "certificates": [],
+            "serial": "",
+            "displayVersion": "sdk_gphone_x86_arm-userdebug 11 RSR1.201013.001 6903271 dev-keys",
+            "name": "sdk_gphone_x86_arm",
+            "sdkVersion": 30,
+            "screenDensity": "560",
+            "device": "generic_x86_arm",
+            "board": "goldfish_x86",
+            "releaseBuildVersion": "11"
+        }
+    },
+    "event_id": 4367,
+    "request_type": "confirm_transaction",
+    "user_id": "sample-90a0a6b0-0a5e-4f6a-a18c-14b84f149292",
+    "request_hash": "9142be5f82899649fa821df4188515c315c360f512cd463d40a70d66bd73ea40",
+    "session_id": "a3ed93db-1881-4e8e-bb17-f8637acd2eaa",
+    "request_hmac": "fa52b956fcd16e608090df0af18ede73c4d9f019c62efef96d8700cf3d3dbc00",
+    "request_result": 0,
+    "requester_ip_address": "192.168.41.1"
+}
+
+[2022-05-29T12:22:06]
+{
+    "transaction_id": "d602a80c-c091-455c-bcf8-e9527c7c545d",
+    "device_event_id": "3d88b502-a769-4731-8191-5318a90dac96",
+    "device_info": {
+        "app": {
+            "appName": "PC Sample App",
+            "packageName": "tech.paycon.mobile_auth_sample",
+            "appVersionName": "1.0",
+            "appVersionCode": 1
+        },
+        "wifi": {
+            "macAddress": "",
+            "localIp": "10.0.2.16",
+            "userAgent": "Mozilla\/5.0 (Linux; Android 11; sdk_gphone_x86_arm Build\/RSR1.201013.001; wv) AppleWebKit\/537.36 (KHTML, like Gecko) Version\/4.0 Chrome\/83.0.4103.106 Mobile Safari\/537.36__Dalvik\/2.1.0 (Linux; U; Android 11; sdk_gphone_x86_arm Build\/RSR1.201013.001)",
+            "SSID": "<unknown ssid>"
+        },
+        "memory": {
+            "totalExternalMemorySize": "6240665600",
+            "totalInternalMemorySize": "6240665600",
+            "hasExternalSDCard": 1,
+            "totalRAM": "2028236"
+        },
+        "sim": {
+            "networkCountryIso": "",
+            "phoneType": "",
+            "simCount": 0,
+            "simCountryIso": "",
+            "roaming": 0,
+            "IMSI": "",
+            "simOperatorName": "",
+            "mmsUrl": "",
+            "imei": "",
+            "mmsAgent": "",
+            "simSerial": "",
+            "networkOperatorName": ""
+        },
+        "sensor": {
+            "minDelay": 10000,
+            "vendor": "The Android Open Source Project",
+            "name": "Goldfish 3-axis Accelerometer",
+            "maxRange": 39.30000686645508,
+            "type": 1,
+            "version": 1,
+            "resolution": 0.00024801588733680546
+        },
+        "location": {
+            "latitude": "0.0000000",
+            "accuracy": "0.00",
+            "longitude": "0.0000000"
+        },
+        "device": {
+            "screenWidth": 1440,
+            "radioVersion": "1.0.0.0",
+            "locale": "en",
+            "manufacturer": "Google",
+            "buildHost": "abfarm-us-west1-c-0007",
+            "buildVersionCodeName": "REL",
+            "osVersion": "11",
+            "defaultBrowser": "",
+            "bootloader": "unknown",
+            "root": 1,
+            "fingerprint": "google\/sdk_gphone_x86_arm\/generic_x86_arm:11\/RSR1.201013.001\/6903271:userdebug\/dev-keys",
+            "model": "sdk_gphone_x86_arm",
+            "hardware": "ranchu",
+            "product": "sdk_gphone_x86_arm",
+            "simulator": 0,
+            "buildBrand": "google",
+            "buildTime": 1602626168000,
+            "buildUser": "android-build",
+            "screenHeight": 2701,
+            "timeZone": "Asia\/Bangkok",
+            "cpu": "siblings=1;apicid=0;cpuid level=10;flags=fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc arch_perfmon nopl cpuid pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 movbe popcnt aes hypervisor pti;cpu cores=1;fpu=yes;stepping=1;processor=3;bogomips=3596.67;physical id=0;cpu MHz=0.001;address sizes=39 bits physical, 48 bits virtual;bugs=cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit;clflush size=64;cache_alignment=64;vendor_id=GenuineIntel;initial apicid=0;fpu_exception=yes;wp=yes;model=31;core id=0;cpu family=6;model name=Virtual CPU;cache size=1024 KB",
+            "defaultSms": "com.android.bluetooth",
+            "deviceID": "55d48ca132830d7e",
+            "certificates": [],
+            "serial": "",
+            "displayVersion": "sdk_gphone_x86_arm-userdebug 11 RSR1.201013.001 6903271 dev-keys",
+            "name": "sdk_gphone_x86_arm",
+            "sdkVersion": 30,
+            "screenDensity": "560",
+            "device": "generic_x86_arm",
+            "board": "goldfish_x86",
+            "releaseBuildVersion": "11"
+        }
+    },
+    "event_id": 4366,
+    "request_type": "get_transaction_data",
+    "user_id": "sample-90a0a6b0-0a5e-4f6a-a18c-14b84f149292",
+    "request_hash": "a432d44be716dba3c265537364ea4e5cc4743723c04dfcb895ba453f96a5cd03",
+    "session_id": "a3ed93db-1881-4e8e-bb17-f8637acd2eaa",
+    "request_hmac": "1cac16fb41398129bc2176042340bb9c32d739a189f9e9e9303e79cbc0b5f2f0",
+    "request_result": 0,
+    "requester_ip_address": "192.168.41.1"
+}
+
+[2022-05-29T12:22:06]
+{
+    "device_event_id": "7881e2c3-8e8c-4d27-a3bf-13b3dc7df35c",
+    "device_info": {
+        "app": {
+            "appName": "PC Sample App",
+            "packageName": "tech.paycon.mobile_auth_sample",
+            "appVersionName": "1.0",
+            "appVersionCode": 1
+        },
+        "wifi": {
+            "macAddress": "",
+            "localIp": "10.0.2.16",
+            "userAgent": "Mozilla\/5.0 (Linux; Android 11; sdk_gphone_x86_arm Build\/RSR1.201013.001; wv) AppleWebKit\/537.36 (KHTML, like Gecko) Version\/4.0 Chrome\/83.0.4103.106 Mobile Safari\/537.36__Dalvik\/2.1.0 (Linux; U; Android 11; sdk_gphone_x86_arm Build\/RSR1.201013.001)",
+            "SSID": "<unknown ssid>"
+        },
+        "memory": {
+            "totalExternalMemorySize": "6240665600",
+            "totalInternalMemorySize": "6240665600",
+            "hasExternalSDCard": 1,
+            "totalRAM": "2028236"
+        },
+        "sim": {
+            "networkCountryIso": "",
+            "phoneType": "",
+            "simCount": 0,
+            "simCountryIso": "",
+            "roaming": 0,
+            "IMSI": "",
+            "simOperatorName": "",
+            "mmsUrl": "",
+            "imei": "",
+            "mmsAgent": "",
+            "simSerial": "",
+            "networkOperatorName": ""
+        },
+        "sensor": {
+            "minDelay": 10000,
+            "vendor": "The Android Open Source Project",
+            "name": "Goldfish 3-axis Accelerometer",
+            "maxRange": 39.30000686645508,
+            "type": 1,
+            "version": 1,
+            "resolution": 0.00024801588733680546
+        },
+        "location": {
+            "latitude": "0.0000000",
+            "accuracy": "0.00",
+            "longitude": "0.0000000"
+        },
+        "device": {
+            "screenWidth": 1440,
+            "radioVersion": "1.0.0.0",
+            "locale": "en",
+            "manufacturer": "Google",
+            "buildHost": "abfarm-us-west1-c-0007",
+            "buildVersionCodeName": "REL",
+            "osVersion": "11",
+            "defaultBrowser": "",
+            "bootloader": "unknown",
+            "root": 1,
+            "fingerprint": "google\/sdk_gphone_x86_arm\/generic_x86_arm:11\/RSR1.201013.001\/6903271:userdebug\/dev-keys",
+            "model": "sdk_gphone_x86_arm",
+            "hardware": "ranchu",
+            "product": "sdk_gphone_x86_arm",
+            "simulator": 0,
+            "buildBrand": "google",
+            "buildTime": 1602626168000,
+            "buildUser": "android-build",
+            "screenHeight": 2701,
+            "timeZone": "Asia\/Bangkok",
+            "cpu": "siblings=1;apicid=0;cpuid level=10;flags=fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc arch_perfmon nopl cpuid pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 movbe popcnt aes hypervisor pti;cpu cores=1;fpu=yes;stepping=1;processor=3;bogomips=3596.67;physical id=0;cpu MHz=0.001;address sizes=39 bits physical, 48 bits virtual;bugs=cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit;clflush size=64;cache_alignment=64;vendor_id=GenuineIntel;initial apicid=0;fpu_exception=yes;wp=yes;model=31;core id=0;cpu family=6;model name=Virtual CPU;cache size=1024 KB",
+            "defaultSms": "com.android.bluetooth",
+            "deviceID": "55d48ca132830d7e",
+            "certificates": [],
+            "serial": "",
+            "displayVersion": "sdk_gphone_x86_arm-userdebug 11 RSR1.201013.001 6903271 dev-keys",
+            "name": "sdk_gphone_x86_arm",
+            "sdkVersion": 30,
+            "screenDensity": "560",
+            "device": "generic_x86_arm",
+            "board": "goldfish_x86",
+            "releaseBuildVersion": "11"
+        }
+    },
+    "event_id": 4365,
+    "request_type": "get_transactions",
+    "user_id": "sample-90a0a6b0-0a5e-4f6a-a18c-14b84f149292",
+    "request_hash": "71a52fe4199fd53a891bea365d1219f3e6c86ef2834f6c7714da6648530fc74c",
+    "session_id": "a3ed93db-1881-4e8e-bb17-f8637acd2eaa",
+    "request_hmac": "91ed608128a21bc833d789b344d44d407ba67b7b2d1d000280ef8eff462e2834",
+    "request_result": 0,
+    "requester_ip_address": "192.168.41.1"
+}
+
+[2022-05-29T12:21:59]
+{
+    "device_event_id": "32ae4acc-b9ea-4c6b-833f-65e0b65a73ee",
+    "device_info": {
+        "app": {
+            "appName": "PC Sample App",
+            "packageName": "tech.paycon.mobile_auth_sample",
+            "appVersionName": "1.0",
+            "appVersionCode": 1
+        },
+        "wifi": {
+            "macAddress": "",
+            "localIp": "10.0.2.16",
+            "userAgent": "Mozilla\/5.0 (Linux; Android 11; sdk_gphone_x86_arm Build\/RSR1.201013.001; wv) AppleWebKit\/537.36 (KHTML, like Gecko) Version\/4.0 Chrome\/83.0.4103.106 Mobile Safari\/537.36__Dalvik\/2.1.0 (Linux; U; Android 11; sdk_gphone_x86_arm Build\/RSR1.201013.001)",
+            "SSID": "<unknown ssid>"
+        },
+        "memory": {
+            "totalExternalMemorySize": "6240665600",
+            "totalInternalMemorySize": "6240665600",
+            "hasExternalSDCard": 1,
+            "totalRAM": "2028236"
+        },
+        "sim": {
+            "networkCountryIso": "",
+            "phoneType": "",
+            "simCount": 0,
+            "simCountryIso": "",
+            "roaming": 0,
+            "IMSI": "",
+            "simOperatorName": "",
+            "mmsUrl": "",
+            "imei": "",
+            "mmsAgent": "",
+            "simSerial": "",
+            "networkOperatorName": ""
+        },
+        "sensor": {
+            "minDelay": 10000,
+            "vendor": "The Android Open Source Project",
+            "name": "Goldfish 3-axis Accelerometer",
+            "maxRange": 39.30000686645508,
+            "type": 1,
+            "version": 1,
+            "resolution": 0.00024801588733680546
+        },
+        "location": {
+            "latitude": "0.0000000",
+            "accuracy": "0.00",
+            "longit

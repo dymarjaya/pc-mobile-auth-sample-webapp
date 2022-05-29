@@ -1,0 +1,31 @@
+{
+    "aliases": {
+        "51744168": {
+            "activation_code": "211623",
+            "pc_user_id": "sample-880b718e-4dee-4d74-8762-316de7bd828b"
+        },
+        "52747523": {
+            "activation_code": "344865",
+            "pc_user_id": "sample-90a0a6b0-0a5e-4f6a-a18c-14b84f149292"
+        }
+    },
+    "9a9cea81-9be2-4a57-89e6-4e5fe2744999": "created",
+    "sample-880b718e-4dee-4d74-8762-316de7bd828b": "d17f1bed-8faf-47c4-bd40-52bce7c5b403",
+    "f7f80dfc-7a36-4c83-a77a-adf2154d1faa": "confirmed",
+    "929f5c4e-8c41-422a-8dc6-225672ba5c85": "confirmed",
+    "8269cb82-db63-4f6f-963a-60ecf57c47e6": "confirmed",
+    "724bfe4b-3fe0-4d8f-834f-882fd395ca31": "confirmed",
+    "b33e413e-8e14-49f8-a2cf-144ec25d6cf2": "created",
+    "88348aca-aec7-4d06-87e7-ac76b9062071": "confirmed",
+    "037fbb55-2cd5-468b-9fab-5b0b2e087cab": "created",
+    "30da689f-c47e-416a-a006-ff887586ee69": "created",
+    "13c2009a-db86-4936-92a0-14f7bfe7d253": "created",
+    "43cac632-ca2f-4fc0-9720-68eeed8c1dcc": "confirmed",
+    "11785d1e-24ff-4b3e-8015-4ea9ab04348d": "confirmed",
+    "268d36d7-e1b7-4836-b7cd-f326669288e8": "confirmed",
+    "d17f1bed-8faf-47c4-bd40-52bce7c5b403": "confirmed",
+    "39934383-15f4-4041-94f0-9f1bfc8d3676": "confirmed",
+    "sample-90a0a6b0-0a5e-4f6a-a18c-14b84f149292": "d602a80c-c091-455c-bcf8-e9527c7c545d",
+    "1e48e54e-6648-4a37-8d59-9d0d4b6bf682": "confirmed",
+    "d602a80c-c091-455c-bcf8-e9527c7c545d": "confirmed"
+}

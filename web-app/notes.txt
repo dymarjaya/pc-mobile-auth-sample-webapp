@@ -1,0 +1,53 @@
+Mobile app (host computer: 192.168.41.1)
+Backend app (host computer: 192.168.41.1)
+PCS + PCSE + PCP (vm: 192.168.41.128:8080)
+
+//-----------------------------------------
+
+web app: http://192.168.41.1/web-app/ui/
+
+fds: http://192.168.41.1/web-app/fds/
+
+push notification: firebase FCM
+
+//-----------------------------------------
+
+GET System Info
+http://192.168.41.128:8080/pc-api/0b3c8706-89d7-4378-8a96-707d5939c0f1
+
+{
+    "answer_type": "system_info",
+    "answer": {
+        "result": {
+            "error_message": "Success",
+            "error_code": 0
+        },
+        "system_info": {
+            "billing_period": 365,
+            "system_id": "0b3c8706-89d7-4378-8a96-707d5939c0f1",
+            "description": "Dymar",
+            "created_at": "2021-04-10 15:58:41.968 +0700",
+            "report_template_path": "/opt/pc/report.docx",
+            "pc_is_external_url": "http://192.168.41.128:8080/pc-client-api",
+            "events_post_url": "http://192.168.41.1:80/web-app/fds/index.php",
+            "register_request": "eyJyZXF1ZXN0Ijp7InFyVVJMU2NoZW1lIjoiIiwiYmlsbGluZ1R5cGUiOjIsImludGVyYWN0aW9uRXh0ZXJuYWxVUkwiOiJodHRwczovLzExNy41NC4xMzkuMjM0L3BjLWNsaWVudC1hcGkvIiwiaW50ZXJhY3Rpb25JbnRlcm5hbFVSTCI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9wYy1wdXNoZXItYXBpLyIsIm5hbWUiOiJkeW1hciIsImRlc2NyaXB0aW9uIjoiRHltYXIiLCJpZCI6IjBiM2M4NzA2LTg5ZDctNDM3OC04YTk2LTcwN2Q1OTM5YzBmMSIsImtleUluZm9MaWZlVGltZVZhbCI6MzY1LCJldmVudHNQb3N0VXJsIjoiIiwicmVwb3J0VGVtcGxhdGVQYXRoIjoiL29wdC9wYy9yZXBvcnQuZG9jeCIsImJpbGxQZXJpb2QiOjM2NX0sInNpZ25hdHVyZSI6Ik1FVUNJUUREa0hBaEdWUkFYbnQvRGMwRytpcGVPWUVpc1cvNmlnVkRoY25FR3dSZy9nSWdMQS9lbmZnQy9jdUdLQWFsdzBkWTZCTjNkU3RmcVhHbTNqSjZ5M1pUSzdrPSJ9",
+            "callback_url": "http://192.168.41.1:80/web-app/backend/pc_callback_reciever.php",
+            "license": {
+                "licenses": [
+                    {
+                        "users_count": 20,
+                        "used": 2,
+                        "licenseID": "Demo-license"
+                    }
+                ]
+            },
+            "is_deleted": false,
+            "pc_is_internal_url": "http://192.168.41.128:8080/pc-pusher-api/",
+            "updated_at": "2022-05-11 22:05:53.722 +0700",
+            "name": "dymar",
+            "user_keys_expiration_period": 365,
+            "billing_type": 2
+        }
+    },
+    "answer_version": 3
+}
